@@ -240,7 +240,10 @@ void rrc::ue::handle_rrc_con_req(rrc_conn_request_s* msg)
     has_tmsi = true;
   }
   establishment_cause = msg_r8->establishment_cause;
+  // Modified
   send_connection_setup();
+  send_crafted_connection_release();  // After setup() and before sending setup complete()
+  //-------------------------------
   state = RRC_STATE_WAIT_FOR_CON_SETUP_COMPLETE;
 
   set_activity_timeout(UE_INACTIVITY_TIMEOUT);
