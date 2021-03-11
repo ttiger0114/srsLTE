@@ -312,7 +312,8 @@ void rrc::ue::send_connection_reject()
   mac_ctrl->handle_con_reject();
 
   dl_ccch_msg_s dl_ccch_msg;
-  dl_ccch_msg.msg.set_c1().set_rrc_conn_reject().crit_exts.set_c1().set_rrc_conn_reject_r8().wait_time = 10;
+  dl_ccch_msg.msg.set_c1().set_rrc_conn_reject().crit_exts.set_c1().set_rrc_conn_reject_r8().wait_time = 100;
+  printf("RRC_CONN_RJECT\n\n\n\n");
   send_dl_ccch(&dl_ccch_msg);
 }
 
@@ -794,6 +795,39 @@ void rrc::ue::send_connection_release()
   }
 
   send_dl_dcch(&dl_dcch_msg);
+}
+
+
+//Modified
+void rrc::ue::send_crafted_connection_release()
+{
+    dl_dcch_msg_s dl_dcch_msg;
+    auto& rrc_release = dl_dcch_msg.msg.set_c1().set_rrc_conn_release();
+    rrc_release.rrc_transaction_id = (uint8_t)((transaction_id++) % 4);
+    rrc_conn_release_r8_ies_s& rel_ies = rrc_release.crit_exts.set_c1().set_rrc_conn_release_r8();
+
+    rrc_conn_release_v890_ies_s& rel_v890 = rel_ies.set_rrc_conn_release_v890();
+    rrc_conn_release_v920_ies_s& rel_v920 = rel_v890.set_rrc_conn_release_v920();
+    rrc_conn_release_v1020_ies_s& rel_v1020 = rel_v920.set_rrc_conn_release_v1020();
+    rrc_conn_release_v1320_ies_s& rel_v1320 = rel_v1020.set_rrc_conn_release_v1320();
+    rrc_conn_release_v1530_ies_s& rel_v1530 = rel_v1320.set_rrc_conn_release_v1530();
+
+    rel_v1530.set_rrc_inactive_cfg_r15();
+
+
+    rel_ies.release_cause = release_cause_e::other;
+    if (is_csfb) {
+        if (parent->sib7.carrier_freqs_info_list.size() > 0) {
+            rel_ies.redirected_carrier_info_present = true;
+            rel_ies.redirected_carrier_info.set_geran();
+            rel_ies.redirected_carrier_info.geran() = parent->sib7.carrier_freqs_info_list[0].carrier_freqs;
+        }
+        else {
+            rel_ies.redirected_carrier_info_present = false;
+        }
+    }
+
+    send_dl_dcch(&dl_dcch_msg);
 }
 
 /*
