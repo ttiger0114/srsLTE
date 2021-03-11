@@ -315,8 +315,7 @@ void rrc::ue::send_connection_reject()
   mac_ctrl->handle_con_reject();
 
   dl_ccch_msg_s dl_ccch_msg;
-  dl_ccch_msg.msg.set_c1().set_rrc_conn_reject().crit_exts.set_c1().set_rrc_conn_reject_r8().wait_time = 100;
-  printf("RRC_CONN_RJECT\n\n\n\n");
+  dl_ccch_msg.msg.set_c1().set_rrc_conn_reject().crit_exts.set_c1().set_rrc_conn_reject_r8().wait_time = 10;
   send_dl_ccch(&dl_ccch_msg);
 }
 
@@ -817,7 +816,7 @@ void rrc::ue::send_crafted_connection_release()
 
     rel_v1530.set_rrc_inactive_cfg_r15();
 
-
+    printf("\n-----------------------\nSend Crafted RRC release\n-----------------------\n");
     rel_ies.release_cause = release_cause_e::other;
     if (is_csfb) {
         if (parent->sib7.carrier_freqs_info_list.size() > 0) {
