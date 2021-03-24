@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/scope_exit_test.dir/scope_exit_test.cc.o"
+  "CMakeFiles/scope_exit_test.dir/scope_exit_test.cc.o.d"
   "scope_exit_test"
   "scope_exit_test.pdb"
 )

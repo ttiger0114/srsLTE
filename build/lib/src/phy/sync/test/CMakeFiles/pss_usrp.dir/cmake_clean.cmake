@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pss_usrp.dir/pss_usrp.c.o"
+  "CMakeFiles/pss_usrp.dir/pss_usrp.c.o.d"
   "pss_usrp"
   "pss_usrp.pdb"
 )

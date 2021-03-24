@@ -1,29 +1,17 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cdy/srsLTE/srsue/src/main.cc" "/home/cdy/srsLTE/build/srsue/src/CMakeFiles/srsue.dir/main.cc.o"
-  "/home/cdy/srsLTE/srsue/src/metrics_csv.cc" "/home/cdy/srsLTE/build/srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o"
-  "/home/cdy/srsLTE/srsue/src/metrics_stdout.cc" "/home/cdy/srsLTE/build/srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o"
-  "/home/cdy/srsLTE/srsue/src/ue.cc" "/home/cdy/srsLTE/build/srsue/src/CMakeFiles/srsue.dir/ue.cc.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "ENABLE_GUI"
-  "ENABLE_TIMEPROF"
-  "HAVE_MBEDTLS"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "lib/include"
-  "../lib/include"
-  "../"
-  "../lib/src/srslog/bundled/fmt/../../../../include/srslte/srslog/bundled"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/cdy/srsLTE/srsue/src/main.cc" "srsue/src/CMakeFiles/srsue.dir/main.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/main.cc.o.d"
+  "/home/cdy/srsLTE/srsue/src/metrics_csv.cc" "srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o.d"
+  "/home/cdy/srsLTE/srsue/src/metrics_stdout.cc" "srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o.d"
+  "/home/cdy/srsLTE/srsue/src/ue.cc" "srsue/src/CMakeFiles/srsue.dir/ue.cc.o" "gcc" "srsue/src/CMakeFiles/srsue.dir/ue.cc.o.d"
   )
 
 # Targets to which this target links.

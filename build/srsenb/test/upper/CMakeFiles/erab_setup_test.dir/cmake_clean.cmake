@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/erab_setup_test.dir/erab_setup_test.cc.o"
+  "CMakeFiles/erab_setup_test.dir/erab_setup_test.cc.o.d"
   "erab_setup_test"
   "erab_setup_test.pdb"
 )

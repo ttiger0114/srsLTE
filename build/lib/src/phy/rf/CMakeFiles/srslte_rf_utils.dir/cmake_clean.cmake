@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/srslte_rf_utils.dir/rf_utils.c.o"
+  "CMakeFiles/srslte_rf_utils.dir/rf_utils.c.o.d"
   "libsrslte_rf_utils.a"
   "libsrslte_rf_utils.pdb"
 )

@@ -1,26 +1,16 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/cdy/srsLTE/lib/src/phy/dft/dft_fftw.c" "/home/cdy/srsLTE/build/lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_fftw.c.o"
-  "/home/cdy/srsLTE/lib/src/phy/dft/dft_precoding.c" "/home/cdy/srsLTE/build/lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_precoding.c.o"
-  "/home/cdy/srsLTE/lib/src/phy/dft/ofdm.c" "/home/cdy/srsLTE/build/lib/src/phy/dft/CMakeFiles/srslte_dft.dir/ofdm.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_C
-  "ENABLE_GUI"
-  "ENABLE_TIMEPROF"
-  "HAVE_MBEDTLS"
   )
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "lib/include"
-  "../lib/include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/cdy/srsLTE/lib/src/phy/dft/dft_fftw.c" "lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_fftw.c.o" "gcc" "lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_fftw.c.o.d"
+  "/home/cdy/srsLTE/lib/src/phy/dft/dft_precoding.c" "lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_precoding.c.o" "gcc" "lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_precoding.c.o.d"
+  "/home/cdy/srsLTE/lib/src/phy/dft/ofdm.c" "lib/src/phy/dft/CMakeFiles/srslte_dft.dir/ofdm.c.o" "gcc" "lib/src/phy/dft/CMakeFiles/srslte_dft.dir/ofdm.c.o.d"
   )
 
 # Targets to which this target links.

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turbocoder_test.dir/turbocoder_test.c.o"
+  "CMakeFiles/turbocoder_test.dir/turbocoder_test.c.o.d"
   "turbocoder_test"
   "turbocoder_test.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pdu_test.dir/pdu_test.cc.o"
+  "CMakeFiles/pdu_test.dir/pdu_test.cc.o.d"
   "pdu_test"
   "pdu_test.pdb"
 )

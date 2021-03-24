@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sched_grid_test.dir/sched_grid_test.cc.o"
+  "CMakeFiles/sched_grid_test.dir/sched_grid_test.cc.o.d"
   "sched_grid_test"
   "sched_grid_test.pdb"
 )

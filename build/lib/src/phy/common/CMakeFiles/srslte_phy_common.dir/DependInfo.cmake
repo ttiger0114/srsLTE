@@ -1,27 +1,17 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/cdy/srsLTE/lib/src/phy/common/phy_common.c" "/home/cdy/srsLTE/build/lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/phy_common.c.o"
-  "/home/cdy/srsLTE/lib/src/phy/common/phy_common_sl.c" "/home/cdy/srsLTE/build/lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/phy_common_sl.c.o"
-  "/home/cdy/srsLTE/lib/src/phy/common/sequence.c" "/home/cdy/srsLTE/build/lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/sequence.c.o"
-  "/home/cdy/srsLTE/lib/src/phy/common/timestamp.c" "/home/cdy/srsLTE/build/lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/timestamp.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_C
-  "ENABLE_GUI"
-  "ENABLE_TIMEPROF"
-  "HAVE_MBEDTLS"
   )
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "lib/include"
-  "../lib/include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/cdy/srsLTE/lib/src/phy/common/phy_common.c" "lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/phy_common.c.o" "gcc" "lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/phy_common.c.o.d"
+  "/home/cdy/srsLTE/lib/src/phy/common/phy_common_sl.c" "lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/phy_common_sl.c.o" "gcc" "lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/phy_common_sl.c.o.d"
+  "/home/cdy/srsLTE/lib/src/phy/common/sequence.c" "lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/sequence.c.o" "gcc" "lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/sequence.c.o.d"
+  "/home/cdy/srsLTE/lib/src/phy/common/timestamp.c" "lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/timestamp.c.o" "gcc" "lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/timestamp.c.o.d"
   )
 
 # Targets to which this target links.

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/network_utils_test.dir/network_utils_test.cc.o"
+  "CMakeFiles/network_utils_test.dir/network_utils_test.cc.o.d"
   "network_utils_test"
   "network_utils_test.pdb"
 )

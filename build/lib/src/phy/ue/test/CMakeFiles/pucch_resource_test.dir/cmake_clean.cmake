@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pucch_resource_test.dir/pucch_resource_test.c.o"
+  "CMakeFiles/pucch_resource_test.dir/pucch_resource_test.c.o.d"
   "pucch_resource_test"
   "pucch_resource_test.pdb"
 )

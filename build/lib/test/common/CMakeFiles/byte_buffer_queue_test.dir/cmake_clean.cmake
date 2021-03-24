@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/byte_buffer_queue_test.dir/byte_buffer_queue_test.cc.o"
+  "CMakeFiles/byte_buffer_queue_test.dir/byte_buffer_queue_test.cc.o.d"
   "byte_buffer_queue_test"
   "byte_buffer_queue_test.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gen_ack_test.dir/gen_ack_test.c.o"
+  "CMakeFiles/gen_ack_test.dir/gen_ack_test.c.o.d"
   "gen_ack_test"
   "gen_ack_test.pdb"
 )

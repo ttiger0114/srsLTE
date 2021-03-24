@@ -1,24 +1,14 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cdy/srsLTE/lib/test/common/stack_procedure_test.cc" "/home/cdy/srsLTE/build/lib/test/common/CMakeFiles/stack_procedure_test.dir/stack_procedure_test.cc.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "ENABLE_GUI"
-  "ENABLE_TIMEPROF"
-  "HAVE_MBEDTLS"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "lib/include"
-  "../lib/include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/cdy/srsLTE/lib/test/common/stack_procedure_test.cc" "lib/test/common/CMakeFiles/stack_procedure_test.dir/stack_procedure_test.cc.o" "gcc" "lib/test/common/CMakeFiles/stack_procedure_test.dir/stack_procedure_test.cc.o.d"
   )
 
 # Targets to which this target links.

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cell_search_nbiot.dir/cell_search_nbiot.c.o"
+  "CMakeFiles/cell_search_nbiot.dir/cell_search_nbiot.c.o.d"
   "cell_search_nbiot"
   "cell_search_nbiot.pdb"
 )

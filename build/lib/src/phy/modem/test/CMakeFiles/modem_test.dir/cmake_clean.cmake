@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/modem_test.dir/modem_test.c.o"
+  "CMakeFiles/modem_test.dir/modem_test.c.o.d"
   "modem_test"
   "modem_test.pdb"
 )

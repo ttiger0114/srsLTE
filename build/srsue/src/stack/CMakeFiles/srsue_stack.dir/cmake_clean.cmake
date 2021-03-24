@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/srsue_stack.dir/ue_stack_lte.cc.o"
+  "CMakeFiles/srsue_stack.dir/ue_stack_lte.cc.o.d"
   "libsrsue_stack.a"
   "libsrsue_stack.pdb"
 )

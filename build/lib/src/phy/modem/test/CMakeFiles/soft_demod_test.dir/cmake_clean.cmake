@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/soft_demod_test.dir/soft_demod_test.c.o"
+  "CMakeFiles/soft_demod_test.dir/soft_demod_test.c.o.d"
   "soft_demod_test"
   "soft_demod_test.pdb"
 )

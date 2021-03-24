@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nas_decoder.dir/nas_decoder.cc.o"
+  "CMakeFiles/nas_decoder.dir/nas_decoder.cc.o.d"
   "nas_decoder"
   "nas_decoder.pdb"
 )

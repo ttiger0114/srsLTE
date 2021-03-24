@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/chest_test_srs.dir/chest_test_srs.c.o"
+  "CMakeFiles/chest_test_srs.dir/chest_test_srs.c.o.d"
   "chest_test_srs"
   "chest_test_srs.pdb"
 )

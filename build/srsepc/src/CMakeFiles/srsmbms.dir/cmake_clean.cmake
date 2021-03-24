@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/srsmbms.dir/mbms-gw/main.cc.o"
+  "CMakeFiles/srsmbms.dir/mbms-gw/main.cc.o.d"
   "srsmbms"
   "srsmbms.pdb"
 )

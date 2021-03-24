@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/refsignal_ul_test_all.dir/refsignal_ul_test.c.o"
+  "CMakeFiles/refsignal_ul_test_all.dir/refsignal_ul_test.c.o.d"
   "refsignal_ul_test_all"
   "refsignal_ul_test_all.pdb"
 )

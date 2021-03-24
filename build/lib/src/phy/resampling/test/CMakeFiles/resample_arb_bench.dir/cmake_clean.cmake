@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/resample_arb_bench.dir/resample_arb_bench.c.o"
+  "CMakeFiles/resample_arb_bench.dir/resample_arb_bench.c.o.d"
   "resample_arb_bench"
   "resample_arb_bench.pdb"
 )

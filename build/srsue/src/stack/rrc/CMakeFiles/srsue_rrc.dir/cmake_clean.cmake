@@ -1,9 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/srsue_rrc.dir/phy_controller.cc.o"
+  "CMakeFiles/srsue_rrc.dir/phy_controller.cc.o.d"
   "CMakeFiles/srsue_rrc.dir/rrc.cc.o"
+  "CMakeFiles/srsue_rrc.dir/rrc.cc.o.d"
   "CMakeFiles/srsue_rrc.dir/rrc_cell.cc.o"
+  "CMakeFiles/srsue_rrc.dir/rrc_cell.cc.o.d"
   "CMakeFiles/srsue_rrc.dir/rrc_meas.cc.o"
+  "CMakeFiles/srsue_rrc.dir/rrc_meas.cc.o.d"
   "CMakeFiles/srsue_rrc.dir/rrc_procedures.cc.o"
+  "CMakeFiles/srsue_rrc.dir/rrc_procedures.cc.o.d"
   "libsrsue_rrc.a"
   "libsrsue_rrc.pdb"
 )

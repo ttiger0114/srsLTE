@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interval_test.dir/interval_test.cc.o"
+  "CMakeFiles/interval_test.dir/interval_test.cc.o.d"
   "interval_test"
   "interval_test.pdb"
 )

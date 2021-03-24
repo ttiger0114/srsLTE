@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/srslte_radio.dir/channel_mapping.cc.o"
+  "CMakeFiles/srslte_radio.dir/channel_mapping.cc.o.d"
   "CMakeFiles/srslte_radio.dir/radio.cc.o"
+  "CMakeFiles/srslte_radio.dir/radio.cc.o.d"
   "CMakeFiles/srslte_radio.dir/radio_null.cc.o"
+  "CMakeFiles/srslte_radio.dir/radio_null.cc.o.d"
   "libsrslte_radio.a"
   "libsrslte_radio.pdb"
 )

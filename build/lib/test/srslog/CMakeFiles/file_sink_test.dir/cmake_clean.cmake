@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/file_sink_test.dir/file_sink_test.cpp.o"
+  "CMakeFiles/file_sink_test.dir/file_sink_test.cpp.o.d"
   "file_sink_test"
   "file_sink_test.pdb"
 )

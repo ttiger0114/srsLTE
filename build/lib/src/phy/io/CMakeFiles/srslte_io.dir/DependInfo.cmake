@@ -1,28 +1,18 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/cdy/srsLTE/lib/src/phy/io/binsource.c" "/home/cdy/srsLTE/build/lib/src/phy/io/CMakeFiles/srslte_io.dir/binsource.c.o"
-  "/home/cdy/srsLTE/lib/src/phy/io/filesink.c" "/home/cdy/srsLTE/build/lib/src/phy/io/CMakeFiles/srslte_io.dir/filesink.c.o"
-  "/home/cdy/srsLTE/lib/src/phy/io/filesource.c" "/home/cdy/srsLTE/build/lib/src/phy/io/CMakeFiles/srslte_io.dir/filesource.c.o"
-  "/home/cdy/srsLTE/lib/src/phy/io/netsink.c" "/home/cdy/srsLTE/build/lib/src/phy/io/CMakeFiles/srslte_io.dir/netsink.c.o"
-  "/home/cdy/srsLTE/lib/src/phy/io/netsource.c" "/home/cdy/srsLTE/build/lib/src/phy/io/CMakeFiles/srslte_io.dir/netsource.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_C
-  "ENABLE_GUI"
-  "ENABLE_TIMEPROF"
-  "HAVE_MBEDTLS"
   )
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "lib/include"
-  "../lib/include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/cdy/srsLTE/lib/src/phy/io/binsource.c" "lib/src/phy/io/CMakeFiles/srslte_io.dir/binsource.c.o" "gcc" "lib/src/phy/io/CMakeFiles/srslte_io.dir/binsource.c.o.d"
+  "/home/cdy/srsLTE/lib/src/phy/io/filesink.c" "lib/src/phy/io/CMakeFiles/srslte_io.dir/filesink.c.o" "gcc" "lib/src/phy/io/CMakeFiles/srslte_io.dir/filesink.c.o.d"
+  "/home/cdy/srsLTE/lib/src/phy/io/filesource.c" "lib/src/phy/io/CMakeFiles/srslte_io.dir/filesource.c.o" "gcc" "lib/src/phy/io/CMakeFiles/srslte_io.dir/filesource.c.o.d"
+  "/home/cdy/srsLTE/lib/src/phy/io/netsink.c" "lib/src/phy/io/CMakeFiles/srslte_io.dir/netsink.c.o" "gcc" "lib/src/phy/io/CMakeFiles/srslte_io.dir/netsink.c.o.d"
+  "/home/cdy/srsLTE/lib/src/phy/io/netsource.c" "lib/src/phy/io/CMakeFiles/srslte_io.dir/netsource.c.o" "gcc" "lib/src/phy/io/CMakeFiles/srslte_io.dir/netsource.c.o.d"
   )
 
 # Targets to which this target links.

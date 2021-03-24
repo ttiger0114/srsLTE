@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ue_sync_test_nbiot_usrp.dir/ue_sync_test_nbiot_usrp.c.o"
+  "CMakeFiles/ue_sync_test_nbiot_usrp.dir/ue_sync_test_nbiot_usrp.c.o.d"
   "ue_sync_test_nbiot_usrp"
   "ue_sync_test_nbiot_usrp.pdb"
 )

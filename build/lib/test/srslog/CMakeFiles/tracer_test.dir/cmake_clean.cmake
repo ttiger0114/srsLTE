@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tracer_test.dir/event_trace_test.cpp.o"
+  "CMakeFiles/tracer_test.dir/event_trace_test.cpp.o.d"
   "tracer_test"
   "tracer_test.pdb"
 )

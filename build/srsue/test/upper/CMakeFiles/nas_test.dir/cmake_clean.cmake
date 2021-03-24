@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nas_test.dir/nas_test.cc.o"
+  "CMakeFiles/nas_test.dir/nas_test.cc.o.d"
   "nas_test"
   "nas_test.pdb"
 )

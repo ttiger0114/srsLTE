@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/span_test.dir/span_test.cc.o"
+  "CMakeFiles/span_test.dir/span_test.cc.o.d"
   "span_test"
   "span_test.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/srslte_asn1_rrc_meas_test.dir/srslte_asn1_rrc_meas_test.cc.o"
+  "CMakeFiles/srslte_asn1_rrc_meas_test.dir/srslte_asn1_rrc_meas_test.cc.o.d"
   "srslte_asn1_rrc_meas_test"
   "srslte_asn1_rrc_meas_test.pdb"
 )

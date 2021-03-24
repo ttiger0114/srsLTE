@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/usrp_capture_sync.dir/usrp_capture_sync.c.o"
+  "CMakeFiles/usrp_capture_sync.dir/usrp_capture_sync.c.o.d"
   "usrp_capture_sync"
   "usrp_capture_sync.pdb"
 )

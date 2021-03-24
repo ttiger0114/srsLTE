@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bounded_bitset_test.dir/bounded_bitset_test.cc.o"
+  "CMakeFiles/bounded_bitset_test.dir/bounded_bitset_test.cc.o.d"
   "bounded_bitset_test"
   "bounded_bitset_test.pdb"
 )

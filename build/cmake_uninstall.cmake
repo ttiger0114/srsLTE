@@ -13,7 +13,7 @@ foreach (file ${files})
     message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
     if (EXISTS "$ENV{DESTDIR}${file}")
         execute_process(
-            COMMAND /snap/cmake/805/bin/cmake -E remove "$ENV{DESTDIR}${file}"
+            COMMAND /snap/cmake/846/bin/cmake -E remove "$ENV{DESTDIR}${file}"
             OUTPUT_VARIABLE rm_out
             RESULT_VARIABLE rm_retval
         )

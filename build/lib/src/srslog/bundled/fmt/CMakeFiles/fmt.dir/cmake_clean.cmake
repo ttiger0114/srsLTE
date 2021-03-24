@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fmt.dir/format.cc.o"
+  "CMakeFiles/fmt.dir/format.cc.o.d"
   "CMakeFiles/fmt.dir/os.cc.o"
+  "CMakeFiles/fmt.dir/os.cc.o.d"
   "libfmt.a"
   "libfmt.pdb"
 )

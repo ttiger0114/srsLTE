@@ -1,25 +1,14 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/cdy/srsLTE/lib/examples/pdsch_ue.c" "/home/cdy/srsLTE/build/lib/examples/CMakeFiles/pdsch_ue.dir/pdsch_ue.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_C
-  "ENABLE_GUI"
-  "ENABLE_TIMEPROF"
-  "HAVE_MBEDTLS"
   )
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "lib/include"
-  "../lib/include"
-  "../lib/src/srslog/bundled/fmt/../../../../include/srslte/srslog/bundled"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/cdy/srsLTE/lib/examples/pdsch_ue.c" "lib/examples/CMakeFiles/pdsch_ue.dir/pdsch_ue.c.o" "gcc" "lib/examples/CMakeFiles/pdsch_ue.dir/pdsch_ue.c.o.d"
   )
 
 # Targets to which this target links.

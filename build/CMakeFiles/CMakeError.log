@@ -1,25 +1,25 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_11de6/fast && /usr/bin/make  -f CMakeFiles/cmTC_11de6.dir/build.make CMakeFiles/cmTC_11de6.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_66057/fast && /usr/bin/make  -f CMakeFiles/cmTC_66057.dir/build.make CMakeFiles/cmTC_66057.dir/build
 make[1]: Entering directory '/home/cdy/srsLTE/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_11de6.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_11de6.dir/src.c.o -c /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_11de6
-/snap/cmake/805/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11de6.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_11de6.dir/src.c.o -o cmTC_11de6 
-CMakeFiles/cmTC_11de6.dir/src.c.o: In function `main':
+Building C object CMakeFiles/cmTC_66057.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_66057.dir/src.c.o -c /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_66057
+/snap/cmake/846/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66057.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_66057.dir/src.c.o -o cmTC_66057 
+CMakeFiles/cmTC_66057.dir/src.c.o: In function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 src.c:(.text+0x4a): undefined reference to `pthread_detach'
 src.c:(.text+0x56): undefined reference to `pthread_cancel'
 src.c:(.text+0x67): undefined reference to `pthread_join'
 src.c:(.text+0x7b): undefined reference to `pthread_atfork'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_11de6.dir/build.make:105: recipe for target 'cmTC_11de6' failed
-make[1]: *** [cmTC_11de6] Error 1
+CMakeFiles/cmTC_66057.dir/build.make:98: recipe for target 'cmTC_66057' failed
+make[1]: *** [cmTC_66057] Error 1
 make[1]: Leaving directory '/home/cdy/srsLTE/build/CMakeFiles/CMakeTmp'
-Makefile:140: recipe for target 'cmTC_11de6/fast' failed
-make: *** [cmTC_11de6/fast] Error 2
+Makefile:127: recipe for target 'cmTC_66057/fast' failed
+make: *** [cmTC_66057/fast] Error 2
 
 
 Source file was:
@@ -46,41 +46,41 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e6d3f/fast && /usr/bin/make  -f CMakeFiles/cmTC_e6d3f.dir/build.make CMakeFiles/cmTC_e6d3f.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_46e48/fast && /usr/bin/make  -f CMakeFiles/cmTC_46e48.dir/build.make CMakeFiles/cmTC_46e48.dir/build
 make[1]: Entering directory '/home/cdy/srsLTE/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e6d3f.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_e6d3f.dir/CheckFunctionExists.c.o -c /snap/cmake/805/share/cmake-3.19/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e6d3f
-/snap/cmake/805/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6d3f.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_e6d3f.dir/CheckFunctionExists.c.o -o cmTC_e6d3f  -lpthreads 
+Building C object CMakeFiles/cmTC_46e48.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_46e48.dir/CheckFunctionExists.c.o -c /snap/cmake/846/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_46e48
+/snap/cmake/846/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46e48.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_46e48.dir/CheckFunctionExists.c.o -o cmTC_46e48  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_e6d3f.dir/build.make:105: recipe for target 'cmTC_e6d3f' failed
-make[1]: *** [cmTC_e6d3f] Error 1
+CMakeFiles/cmTC_46e48.dir/build.make:98: recipe for target 'cmTC_46e48' failed
+make[1]: *** [cmTC_46e48] Error 1
 make[1]: Leaving directory '/home/cdy/srsLTE/build/CMakeFiles/CMakeTmp'
-Makefile:140: recipe for target 'cmTC_e6d3f/fast' failed
-make: *** [cmTC_e6d3f/fast] Error 2
+Makefile:127: recipe for target 'cmTC_46e48/fast' failed
+make: *** [cmTC_46e48/fast] Error 2
 
 
 
 Performing C++ SOURCE FILE Test UHD_ENABLE_X300_FW_RESET failed with the following output:
 Change Dir: /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_371cb/fast && /usr/bin/make  -f CMakeFiles/cmTC_371cb.dir/build.make CMakeFiles/cmTC_371cb.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1200d/fast && /usr/bin/make  -f CMakeFiles/cmTC_1200d.dir/build.make CMakeFiles/cmTC_1200d.dir/build
 make[1]: Entering directory '/home/cdy/srsLTE/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_371cb.dir/src.cxx.o
-/usr/bin/c++ -DUHD_ENABLE_X300_FW_RESET  -L/usr/lib/x86_64-linux-gnu -o CMakeFiles/cmTC_371cb.dir/src.cxx.o -c /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_371cb
-/snap/cmake/805/bin/cmake -E cmake_link_script CMakeFiles/cmTC_371cb.dir/link.txt --verbose=1
-/usr/bin/c++   -L/usr/lib/x86_64-linux-gnu -rdynamic CMakeFiles/cmTC_371cb.dir/src.cxx.o -o cmTC_371cb  -luhd -lboost_program_options -lboost_system 
-CMakeFiles/cmTC_371cb.dir/src.cxx.o: In function `try_usrp_x300_reset()':
+Building CXX object CMakeFiles/cmTC_1200d.dir/src.cxx.o
+/usr/bin/c++ -DUHD_ENABLE_X300_FW_RESET  -L/usr/lib/x86_64-linux-gnu -o CMakeFiles/cmTC_1200d.dir/src.cxx.o -c /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1200d
+/snap/cmake/846/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1200d.dir/link.txt --verbose=1
+/usr/bin/c++   -L/usr/lib/x86_64-linux-gnu -rdynamic CMakeFiles/cmTC_1200d.dir/src.cxx.o -o cmTC_1200d  -luhd -lboost_program_options -lboost_system 
+CMakeFiles/cmTC_1200d.dir/src.cxx.o: In function `try_usrp_x300_reset()':
 src.cxx:(.text+0xd5): undefined reference to `x300_make_ctrl_iface_enet(boost::shared_ptr<uhd::transport::udp_simple>, bool)'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_371cb.dir/build.make:105: recipe for target 'cmTC_371cb' failed
-make[1]: *** [cmTC_371cb] Error 1
+CMakeFiles/cmTC_1200d.dir/build.make:98: recipe for target 'cmTC_1200d' failed
+make[1]: *** [cmTC_1200d] Error 1
 make[1]: Leaving directory '/home/cdy/srsLTE/build/CMakeFiles/CMakeTmp'
-Makefile:140: recipe for target 'cmTC_371cb/fast' failed
-make: *** [cmTC_371cb/fast] Error 2
+Makefile:127: recipe for target 'cmTC_1200d/fast' failed
+make: *** [cmTC_1200d/fast] Error 2
 
 
 Source file was:
@@ -106,19 +106,19 @@ Source file was:
 Performing C++ SOURCE FILE Test UHD_ENABLE_CUSTOM_RFNOC failed with the following output:
 Change Dir: /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_39d7a/fast && /usr/bin/make  -f CMakeFiles/cmTC_39d7a.dir/build.make CMakeFiles/cmTC_39d7a.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c4f85/fast && /usr/bin/make  -f CMakeFiles/cmTC_c4f85.dir/build.make CMakeFiles/cmTC_c4f85.dir/build
 make[1]: Entering directory '/home/cdy/srsLTE/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_39d7a.dir/src.cxx.o
-/usr/bin/c++ -DUHD_ENABLE_CUSTOM_RFNOC  -L/usr/lib/x86_64-linux-gnu -o CMakeFiles/cmTC_39d7a.dir/src.cxx.o -c /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_c4f85.dir/src.cxx.o
+/usr/bin/c++ -DUHD_ENABLE_CUSTOM_RFNOC  -L/usr/lib/x86_64-linux-gnu -o CMakeFiles/cmTC_c4f85.dir/src.cxx.o -c /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp/src.cxx
 /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp/src.cxx:3:14: fatal error: uhd/rfnoc/ddc_ch2_block_ctrl.hpp: No such file or directory
      #include <uhd/rfnoc/ddc_ch2_block_ctrl.hpp>
               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 compilation terminated.
-CMakeFiles/cmTC_39d7a.dir/build.make:84: recipe for target 'CMakeFiles/cmTC_39d7a.dir/src.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_39d7a.dir/src.cxx.o] Error 1
+CMakeFiles/cmTC_c4f85.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_c4f85.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c4f85.dir/src.cxx.o] Error 1
 make[1]: Leaving directory '/home/cdy/srsLTE/build/CMakeFiles/CMakeTmp'
-Makefile:140: recipe for target 'cmTC_39d7a/fast' failed
-make: *** [cmTC_39d7a/fast] Error 2
+Makefile:127: recipe for target 'cmTC_c4f85/fast' failed
+make: *** [cmTC_c4f85/fast] Error 2
 
 
 Source file was:
@@ -143,13 +143,13 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_AVX512 failed with the following output:
 Change Dir: /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_27602/fast && /usr/bin/make  -f CMakeFiles/cmTC_27602.dir/build.make CMakeFiles/cmTC_27602.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5d969/fast && /usr/bin/make  -f CMakeFiles/cmTC_5d969.dir/build.make CMakeFiles/cmTC_5d969.dir/build
 make[1]: Entering directory '/home/cdy/srsLTE/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_27602.dir/src.c.o
-/usr/bin/cc   -Wno-unused-but-set-variable -DHAVE_AVX512 -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 -o CMakeFiles/cmTC_27602.dir/src.c.o -c /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_27602
-/snap/cmake/805/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27602.dir/link.txt --verbose=1
-/usr/bin/cc  -Wno-unused-but-set-variable -DHAVE_AVX512 -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 -rdynamic CMakeFiles/cmTC_27602.dir/src.c.o -o cmTC_27602 
+Building C object CMakeFiles/cmTC_5d969.dir/src.c.o
+/usr/bin/cc   -Wno-unused-but-set-variable -DHAVE_AVX512 -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 -o CMakeFiles/cmTC_5d969.dir/src.c.o -c /home/cdy/srsLTE/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5d969
+/snap/cmake/846/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d969.dir/link.txt --verbose=1
+/usr/bin/cc  -Wno-unused-but-set-variable -DHAVE_AVX512 -mavx512f -mavx512cd -mavx512bw -mavx512dq -DLV_HAVE_AVX512 -rdynamic CMakeFiles/cmTC_5d969.dir/src.c.o -o cmTC_5d969 
 make[1]: Leaving directory '/home/cdy/srsLTE/build/CMakeFiles/CMakeTmp'
 
 

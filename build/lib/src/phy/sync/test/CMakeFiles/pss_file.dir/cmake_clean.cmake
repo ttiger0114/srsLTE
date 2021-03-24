@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pss_file.dir/pss_file.c.o"
+  "CMakeFiles/pss_file.dir/pss_file.c.o.d"
   "pss_file"
   "pss_file.pdb"
 )

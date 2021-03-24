@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cell_search.dir/cell_search.c.o"
+  "CMakeFiles/cell_search.dir/cell_search.c.o.d"
   "cell_search"
   "cell_search.pdb"
 )

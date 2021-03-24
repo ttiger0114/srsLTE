@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sync_test.dir/sync_test.c.o"
+  "CMakeFiles/sync_test.dir/sync_test.c.o.d"
   "sync_test"
   "sync_test.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hst_channel_test.dir/hst_channel_test.c.o"
+  "CMakeFiles/hst_channel_test.dir/hst_channel_test.c.o.d"
   "hst_channel_test"
   "hst_channel_test.pdb"
 )

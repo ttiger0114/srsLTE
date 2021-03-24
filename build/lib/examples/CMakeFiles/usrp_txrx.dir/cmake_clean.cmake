@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/usrp_txrx.dir/usrp_txrx.c.o"
+  "CMakeFiles/usrp_txrx.dir/usrp_txrx.c.o.d"
   "usrp_txrx"
   "usrp_txrx.pdb"
 )

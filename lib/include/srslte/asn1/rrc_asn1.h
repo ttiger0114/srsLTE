@@ -30526,10 +30526,19 @@ struct rrc_conn_release_v1530_ies_s {
   rrc_inactive_cfg_r15_s  rrc_inactive_cfg_r15;
   cn_type_r15_e_          cn_type_r15;
 
+  
   // sequence methods
-  rrc_inactive_cfg_r15_s& set_rrc_inactive_cfg_r15(){
+  // Modified
+  void  set_rrc_inactive_cfg_r15(){
     rrc_inactive_cfg_r15_present = true;
-    return rrc_inactive_cfg_r15;
+   
+    rrc_inactive_cfg_r15.full_i_rnti_r15.set(1, true);
+
+    rrc_inactive_cfg_r15.short_i_rnti_r15.set(1,true);
+
+    //rrc_inactive_cfg_r15.short_i_rnti_r15 = "01010101";
+
+    return;
   }
   SRSASN_CODE pack(bit_ref& bref) const;
   SRSASN_CODE unpack(cbit_ref& bref);
@@ -31766,14 +31775,12 @@ struct rrc_conn_release_v1320_ies_s {
   rrc_conn_release_v1530_ies_s& set_rrc_conn_release_v1530()
       {
         non_crit_ext_present = true;
-        return c;
+        return non_crit_ext;
       }
   
   SRSASN_CODE pack(bit_ref& bref) const;
   SRSASN_CODE unpack(cbit_ref& bref);
   void        to_json(json_writer& j) const;
-  private:
-    rrc_conn_release_v1530_ies_s c;
 
 };
 
@@ -36271,7 +36278,7 @@ private:
 };
 
 // ReleaseCause ::= ENUMERATED
-struct release_cause_opts {
+struct release_cause_opts { //Modified
   enum options { load_balancing_ta_urequired, other, cs_fallback_high_prio_v1020, rrc_suspend_v1320, nulltype } value;
 
   std::string to_string() const;
@@ -36865,14 +36872,12 @@ struct rrc_conn_release_r8_ies_s {
   rrc_conn_release_v890_ies_s& set_rrc_conn_release_v890()
       {
         non_crit_ext_present = true;
-        return c;
+        return non_crit_ext;
       }
   // sequence methods
   SRSASN_CODE pack(bit_ref& bref) const;
   SRSASN_CODE unpack(cbit_ref& bref);
   void        to_json(json_writer& j) const;
-  private: 
-    rrc_conn_release_v890_ies_s c;
 };
 
 // RRCConnectionResume-r13-IEs ::= SEQUENCE

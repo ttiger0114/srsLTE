@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/thread_pool_test.dir/thread_pool_test.cc.o"
+  "CMakeFiles/thread_pool_test.dir/thread_pool_test.cc.o.d"
   "thread_pool_test"
   "thread_pool_test.pdb"
 )

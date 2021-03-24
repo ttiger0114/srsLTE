@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.o"
+  "CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.o.d"
   "benchmark_radio"
   "benchmark_radio.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dft_test.dir/dft_test.c.o"
+  "CMakeFiles/dft_test.dir/dft_test.c.o.d"
   "dft_test"
   "dft_test.pdb"
 )

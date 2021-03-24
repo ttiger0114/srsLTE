@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/usrp_capture_sync_nbiot.dir/usrp_capture_sync_nbiot.c.o"
+  "CMakeFiles/usrp_capture_sync_nbiot.dir/usrp_capture_sync_nbiot.c.o.d"
   "usrp_capture_sync_nbiot"
   "usrp_capture_sync_nbiot.pdb"
 )

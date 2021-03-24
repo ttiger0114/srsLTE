@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/prach_test_multi.dir/prach_test_multi.c.o"
+  "CMakeFiles/prach_test_multi.dir/prach_test_multi.c.o.d"
   "prach_test_multi"
   "prach_test_multi.pdb"
 )

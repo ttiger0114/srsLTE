@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/srslte_rf.dir/rf_imp.c.o"
+  "CMakeFiles/srslte_rf.dir/rf_imp.c.o.d"
   "CMakeFiles/srslte_rf.dir/rf_uhd_imp.cc.o"
+  "CMakeFiles/srslte_rf.dir/rf_uhd_imp.cc.o.d"
   "libsrslte_rf.pdb"
   "libsrslte_rf.so"
   "libsrslte_rf.so.0"

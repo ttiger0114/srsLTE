@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/usrp_capture.dir/usrp_capture.c.o"
+  "CMakeFiles/usrp_capture.dir/usrp_capture.c.o.d"
   "usrp_capture"
   "usrp_capture.pdb"
 )

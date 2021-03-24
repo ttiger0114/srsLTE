@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/metrics_test.dir/__/src/metrics_csv.cc.o"
+  "CMakeFiles/metrics_test.dir/__/src/metrics_csv.cc.o.d"
   "CMakeFiles/metrics_test.dir/__/src/metrics_stdout.cc.o"
+  "CMakeFiles/metrics_test.dir/__/src/metrics_stdout.cc.o.d"
   "CMakeFiles/metrics_test.dir/metrics_test.cc.o"
+  "CMakeFiles/metrics_test.dir/metrics_test.cc.o.d"
   "metrics_test"
   "metrics_test.pdb"
 )

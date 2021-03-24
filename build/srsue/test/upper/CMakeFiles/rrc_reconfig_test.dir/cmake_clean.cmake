@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rrc_reconfig_test.dir/rrc_reconfig_test.cc.o"
+  "CMakeFiles/rrc_reconfig_test.dir/rrc_reconfig_test.cc.o.d"
   "rrc_reconfig_test"
   "rrc_reconfig_test.pdb"
 )

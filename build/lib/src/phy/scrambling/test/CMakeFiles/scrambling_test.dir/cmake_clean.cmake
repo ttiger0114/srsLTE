@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/scrambling_test.dir/scrambling_test.c.o"
+  "CMakeFiles/scrambling_test.dir/scrambling_test.c.o.d"
   "scrambling_test"
   "scrambling_test.pdb"
 )

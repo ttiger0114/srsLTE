@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/log_channel_test.dir/log_channel_test.cpp.o"
+  "CMakeFiles/log_channel_test.dir/log_channel_test.cpp.o.d"
   "log_channel_test"
   "log_channel_test.pdb"
 )

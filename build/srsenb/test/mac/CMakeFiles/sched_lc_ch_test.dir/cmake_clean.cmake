@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sched_lc_ch_test.dir/sched_lc_ch_test.cc.o"
+  "CMakeFiles/sched_lc_ch_test.dir/sched_lc_ch_test.cc.o.d"
   "CMakeFiles/sched_lc_ch_test.dir/scheduler_test_common.cc.o"
+  "CMakeFiles/sched_lc_ch_test.dir/scheduler_test_common.cc.o.d"
   "sched_lc_ch_test"
   "sched_lc_ch_test.pdb"
 )

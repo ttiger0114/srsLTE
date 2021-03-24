@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/srslte_agc.dir/agc.c.o"
+  "CMakeFiles/srslte_agc.dir/agc.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rlc_um_test.dir/rlc_um_test.cc.o"
+  "CMakeFiles/rlc_um_test.dir/rlc_um_test.cc.o.d"
   "rlc_um_test"
   "rlc_um_test.pdb"
 )

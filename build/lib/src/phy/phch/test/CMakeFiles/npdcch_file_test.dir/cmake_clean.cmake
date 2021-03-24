@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/npdcch_file_test.dir/npdcch_file_test.c.o"
+  "CMakeFiles/npdcch_file_test.dir/npdcch_file_test.c.o.d"
   "npdcch_file_test"
   "npdcch_file_test.pdb"
 )

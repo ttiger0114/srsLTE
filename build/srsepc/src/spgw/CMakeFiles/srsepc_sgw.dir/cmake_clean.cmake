@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/srsepc_sgw.dir/gtpc.cc.o"
+  "CMakeFiles/srsepc_sgw.dir/gtpc.cc.o.d"
   "CMakeFiles/srsepc_sgw.dir/gtpu.cc.o"
+  "CMakeFiles/srsepc_sgw.dir/gtpu.cc.o.d"
   "CMakeFiles/srsepc_sgw.dir/spgw.cc.o"
+  "CMakeFiles/srsepc_sgw.dir/spgw.cc.o.d"
   "libsrsepc_sgw.a"
   "libsrsepc_sgw.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stack_procedure_test.dir/stack_procedure_test.cc.o"
+  "CMakeFiles/stack_procedure_test.dir/stack_procedure_test.cc.o.d"
   "stack_procedure_test"
   "stack_procedure_test.pdb"
 )

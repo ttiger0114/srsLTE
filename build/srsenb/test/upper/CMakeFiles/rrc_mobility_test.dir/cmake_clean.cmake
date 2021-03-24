@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rrc_mobility_test.dir/rrc_mobility_test.cc.o"
+  "CMakeFiles/rrc_mobility_test.dir/rrc_mobility_test.cc.o.d"
   "rrc_mobility_test"
   "rrc_mobility_test.pdb"
 )

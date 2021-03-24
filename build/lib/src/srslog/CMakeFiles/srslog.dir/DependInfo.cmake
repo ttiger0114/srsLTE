@@ -1,28 +1,17 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cdy/srsLTE/lib/src/srslog/backend_worker.cpp" "/home/cdy/srsLTE/build/lib/src/srslog/CMakeFiles/srslog.dir/backend_worker.cpp.o"
-  "/home/cdy/srsLTE/lib/src/srslog/event_trace.cpp" "/home/cdy/srsLTE/build/lib/src/srslog/CMakeFiles/srslog.dir/event_trace.cpp.o"
-  "/home/cdy/srsLTE/lib/src/srslog/srslog.cpp" "/home/cdy/srsLTE/build/lib/src/srslog/CMakeFiles/srslog.dir/srslog.cpp.o"
-  "/home/cdy/srsLTE/lib/src/srslog/srslog_c.cpp" "/home/cdy/srsLTE/build/lib/src/srslog/CMakeFiles/srslog.dir/srslog_c.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "ENABLE_GUI"
-  "ENABLE_TIMEPROF"
-  "HAVE_MBEDTLS"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "lib/include"
-  "../lib/include"
-  "../lib/src/srslog/bundled/fmt/../../../../include/srslte/srslog/bundled"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/cdy/srsLTE/lib/src/srslog/backend_worker.cpp" "lib/src/srslog/CMakeFiles/srslog.dir/backend_worker.cpp.o" "gcc" "lib/src/srslog/CMakeFiles/srslog.dir/backend_worker.cpp.o.d"
+  "/home/cdy/srsLTE/lib/src/srslog/event_trace.cpp" "lib/src/srslog/CMakeFiles/srslog.dir/event_trace.cpp.o" "gcc" "lib/src/srslog/CMakeFiles/srslog.dir/event_trace.cpp.o.d"
+  "/home/cdy/srsLTE/lib/src/srslog/srslog.cpp" "lib/src/srslog/CMakeFiles/srslog.dir/srslog.cpp.o" "gcc" "lib/src/srslog/CMakeFiles/srslog.dir/srslog.cpp.o.d"
+  "/home/cdy/srsLTE/lib/src/srslog/srslog_c.cpp" "lib/src/srslog/CMakeFiles/srslog.dir/srslog_c.cpp.o" "gcc" "lib/src/srslog/CMakeFiles/srslog.dir/srslog_c.cpp.o.d"
   )
 
 # Targets to which this target links.

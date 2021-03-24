@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/srslog_test.dir/srslog_test.cpp.o"
+  "CMakeFiles/srslog_test.dir/srslog_test.cpp.o.d"
   "srslog_test"
   "srslog_test.pdb"
 )

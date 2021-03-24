@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ringbuffer_test.dir/ring_buffer_test.c.o"
+  "CMakeFiles/ringbuffer_test.dir/ring_buffer_test.c.o.d"
   "ringbuffer_test"
   "ringbuffer_test.pdb"
 )

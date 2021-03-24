@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pdsch_enodeb.dir/pdsch_enodeb.c.o"
+  "CMakeFiles/pdsch_enodeb.dir/pdsch_enodeb.c.o.d"
   "pdsch_enodeb"
   "pdsch_enodeb.pdb"
 )

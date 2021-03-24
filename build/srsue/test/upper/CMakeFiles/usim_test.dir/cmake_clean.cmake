@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/usim_test.dir/usim_test.cc.o"
+  "CMakeFiles/usim_test.dir/usim_test.cc.o.d"
   "usim_test"
   "usim_test.pdb"
 )
